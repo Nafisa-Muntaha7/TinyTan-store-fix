@@ -15,7 +15,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet" />
-
+  <!-- Font Awesome -->
   <script src="https://kit.fontawesome.com/00c9c10d08.js" crossorigin="anonymous"></script>
 
 </head>
@@ -23,22 +23,18 @@
 <body>
   <header></header>
   <main class="main">
+    <h1 class="text-center">TinyTAN Store</h1>
+    <!-- Search Field -->
     <div class="search-field">
       <div class="search-box">
-        <!-- <input id="input-field" class="search-field" type="text"> -->
-        <input type="text" id="input-field" class="search-field">
-        <button type="button" class="btn btn-primary search-button" id="search-btn">Search</button>
-        <!-- <button type="button" class="btn btn-primary search-button" data-toggle="button" aria-pressed="false"
-          autocomplete="off" id="search-btn" onclick="loadProducts()">
+        <input id="input-field" class="search-field" type="text">
+        <button type="button" class="btn search-button" data-toggle="button" aria-pressed="false" autocomplete="off"
+          id="search-btn" onclick="loadProducts()">
           Search
-        </button> -->
+        </button>
       </div>
     </div>
-
-    <div id="product-details" class="mx-auto">
-
-    </div>
-
+    <!-- Price, tax, delivery-charge and total update -->
     <div class="row">
       <div class="col-md-9 col-lg-9 col-sm-7">
         <div id="all-products" class="">
@@ -89,7 +85,7 @@
             </tbody>
           </table>
           <div class="parces text-center">
-            <button class="btn btn-primary text-center">Buy Now</button>
+            <button class="btn search-button text-center">Buy Now</button>
           </div>
         </div>
       </div>
